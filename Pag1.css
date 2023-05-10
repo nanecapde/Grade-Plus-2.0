@@ -1,0 +1,147 @@
+html{
+    font-family: Georgia, serif;
+  }
+
+.container {
+    display: flex;
+    height: 100vh; /* Define a altura da área visível da página como 100% da altura do viewport */
+  }
+
+  .red-section {
+    flex: 1;
+    background-color: #b50909;
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    line-height: 0%;
+  }
+
+  .logo-grade-plus{
+    fill: white;
+  }
+
+  .white-section {
+    flex: 1; /* Faz com que essa seção ocupe metade da largura disponível */
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    line-height: 1px;
+    justify-content: center;
+    align-items: center;
+  }
+
+#p1{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}  
+
+h1{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 10px;
+}  
+
+#p2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+}  
+
+h2{
+    color: #b50909;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.entrar-button{
+    color: white;
+    border-radius: 15px;
+    max-width: 170px; /* Define a largura máxima do botão */
+    width: 100%; /* Para preencher o espaço disponível na largura */
+    height: 40px;
+    margin: 10px auto;
+    background-color: #b50909;
+    border-style: groove;
+    border-color: white;
+}
+
+input[type="text"]{
+    margin-top: 0px;
+}
+
+input {
+    color: black;
+    border-radius: 15px;
+    max-width: 410px; /* Define a largura máxima do botão */
+    width: 100%; /* Para preencher o espaço disponível na largura */
+    height: 30px;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #d8d3d8;
+    border-style: solid;
+    border-color: #d8d3d8; 
+}
+
+#semestre{
+    margin-top: 0px;
+}
+
+input[type="text"]::placeholder,input[type="email"]::placeholder,input[type="password"]::placeholder {
+  color: black; /* Cor do texto do placeholder */
+}
+
+#curso{
+    color: white;
+    border-radius: 15px;
+    max-width: 430px; /* Define a largura máxima do botão */
+    width: 100%; /* Para preencher o espaço disponível na largura */
+    height: 50px;
+    padding: 8px;
+    margin-bottom: 10px;    
+    background-color: #d8d3d8;
+    border-style: solid;
+    border-color: #d8d3d8;
+    color: black;
+}    
+
+.cadastro-button{
+    color: white;
+    border-radius: 15px;
+    max-width: 170px; /* Define a largura máxima do botão */
+    width: 100%; /* Para preencher o espaço disponível na largura */
+    height: 40px;
+    margin: 0 auto;
+    background-color: #b50909;
+    border-style: solid;
+    border-color: white;
+}
+
+.white-section .caixas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .white-section .caixas-container input {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+  }
+

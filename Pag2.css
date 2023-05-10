@@ -1,0 +1,141 @@
+html{
+    font-family: Georgia, serif;
+}
+.container {
+    display: flex;
+    height: 100vh; /* Define a altura da área visível da página como 100% da altura do viewport */
+  }
+  
+  .logo-grade-plus{
+    width: 566px;
+    height: 414px;
+    fill: #b50909;
+  }
+
+  .red-section {
+    flex: 1;
+    background-color: #b50909;
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    line-height: 0%;
+    align-items: center;
+
+  }
+
+  .white-section {
+    flex: 1; /* Faz com que essa seção ocupe metade da largura disponível */
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    line-height: 1px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-grade-plus{
+    font-size: 300px;
+    color: red;
+  }
+
+  .logo-back {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: #000000;
+  }
+
+  .logo-login {
+    font-size: 200px; /* Defina o tamanho desejado para a logo */
+    color: white; /* Defina a cor desejada para a logo */
+    margin-top: 30px; /* Defina as margens conforme necessário */
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+    color: white;
+    font-size: 38px;
+  }
+
+  input {
+    color: black;
+    border-radius: 15px;
+    max-width: 410px; /* Define a largura máxima do botão */
+    width: 100%; /* Para preencher o espaço disponível na largura */
+    height: 30px;
+    padding: 8px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-style: solid;
+    border-color:  white;
+    justify-content: center;   
+}
+input[type="email"]{
+    margin-top: 10px;
+}
+input::placeholder{
+    color: black;
+}
+
+.same-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    display: flex;
+  } 
+#lembrar-usuario{
+    margin-top: 0px;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    text-align: center; 
+}
+
+.checkbox-label span {
+    margin-left: 5px; /* Ajuste o valor conforme necessário */
+    align-self: center; /* Alinhamento vertical */
+  }
+
+#senha-esquecida{
+    margin-top: 0px;
+}
+.same-line a {
+  color: white;
+  text-decoration: none;
+}
+
+.same-line a:hover {
+  text-decoration: underline;
+  color: white;
+}
+#senha-esquecida{
+    margin-left: 130px; /* Ajuste o valor conforme necessário */
+  }
+
+.entrar-button{
+    color: white;
+    border-radius: 15px;
+    max-width: 170px; /* Define a largura máxima do botão */
+    width: 100%; /* Para preencher o espaço disponível na largura */
+    height: 40px;
+    margin: 0 auto;
+    background-color: #b50909;
+    border-style: solid;
+    border-color: white;
+    margin-top: 20px;
+}

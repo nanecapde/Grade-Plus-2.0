@@ -1,0 +1,11 @@
+h1{
+    color: #b50909;
+    font-size: 97px;
+}
+.logo-back {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: #000000;
+  }
